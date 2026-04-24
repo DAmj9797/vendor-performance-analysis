@@ -61,11 +61,11 @@ This project addresses these challenges through structured data analysis.
 
 ### 📌 Sales Overview
 
-![Sales Dashboard](dashboard 1.png)
+![Sales Dashboard](dashboard1.png)
 
 ### 📌 Vendor & Inventory Insights
 
-![Vendor Dashboard](dashboard 2.png)
+![Vendor Dashboard](dashboard2.png)
 
 ---
 
