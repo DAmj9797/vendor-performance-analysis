@@ -1,23 +1,25 @@
 # 🚀 Vendor Performance & Inventory Optimization Analysis
 
+---
+
 ## 📌 Overview
 
-This project focuses on analyzing vendor-level sales, purchasing behavior, and inventory efficiency to uncover actionable business insights.
+This project analyzes vendor-level sales, purchasing behavior, and inventory efficiency to generate actionable business insights.
 
-The goal is to help businesses optimize vendor selection, pricing strategies, and inventory management using data-driven decision-making.
+The objective is to help businesses optimize vendor selection, pricing strategies, and inventory management using data-driven decision-making.
 
 ---
 
 ## 🧠 Problem Statement
 
-Organizations working with multiple vendors often face challenges such as:
+Organizations working with multiple vendors often face:
 
-* Over-dependence on a few vendors
+* Over-dependence on a limited number of vendors
 * Inefficient inventory management
 * Capital locked in unsold stock
 * Difficulty identifying high-profit opportunities
 
-This project addresses these challenges through comprehensive data analysis.
+This project addresses these challenges through structured data analysis.
 
 ---
 
@@ -55,14 +57,24 @@ This project addresses these challenges through comprehensive data analysis.
 
 ---
 
+## 📊 Dashboard Preview
+
+### 📌 Sales Overview
+
+![Sales Dashboard](dashboard 1.png)
+
+### 📌 Vendor & Inventory Insights
+
+![Vendor Dashboard](dashboard 2.png)
+
+---
+
 ## 🔍 Key Analysis
 
 ### 📊 1. Data Cleaning
 
-Filtered only meaningful data:
-
-* Positive profit
-* Valid sales transactions
+* Filtered only meaningful data
+* Removed invalid and zero-value transactions
 
 ---
 
@@ -86,14 +98,13 @@ Filtered only meaningful data:
   * Low sales (bottom 15%)
   * High margins (top 85%)
 
-**Business Use:**
-👉 Opportunity for promotions and pricing adjustments
+👉 Business Opportunity: Promotion and pricing optimization
 
 ---
 
 ### 📊 4. Top Vendor Analysis
 
-Top vendors dominate a large portion of sales, including:
+Top vendors contributing major sales:
 
 * DIAGEO NORTH AMERICA
 * MARTIGNETTI COMPANIES
@@ -105,8 +116,7 @@ Top vendors dominate a large portion of sales, including:
 
 * Top 10 vendors contribute **~65% of total purchases**
 
-**Insight:**
-👉 High dependency risk on a limited vendor base
+👉 Insight: High dependency risk on limited vendors
 
 ---
 
@@ -118,14 +128,13 @@ Top vendors dominate a large portion of sales, including:
 | Medium     | $15.48         |
 | Large      | $10.77         |
 
-**Insight:**
 👉 Bulk purchasing reduces cost by ~72%
 
 ---
 
 ### 📊 7. Inventory Analysis
 
-* Identified vendors with low stock turnover
+* Identified low stock turnover vendors
 * Highlighted slow-moving inventory
 
 ---
@@ -134,8 +143,7 @@ Top vendors dominate a large portion of sales, including:
 
 * Total capital locked: **~$2.71M**
 
-**Insight:**
-👉 Significant working capital inefficiency
+👉 Insight: Significant working capital inefficiency
 
 ---
 
@@ -149,24 +157,34 @@ Top vendors dominate a large portion of sales, including:
 
 ---
 
+## 💰 Business Impact
+
+* Identified **$2.7M+ capital locked in inventory**
+* Highlighted **65% vendor dependency risk**
+* Discovered **high-margin low-sales products for growth**
+* Provided **bulk purchasing insights (~72% cost reduction)**
+
+---
+
 ## 💡 Key Business Insights
 
 * High-margin products need better visibility
 * Vendor dependency must be reduced
 * Inventory management needs optimization
 * Bulk purchasing strategies improve profitability
-* Low-performing vendors can be scaled with better positioning
-
+* Low-performing vendors can be scaled effectively
 
 ---
 
 ## 📁 Project Structure
 
 ```
-Vendor-Performance-Analysis/
-│── notebooks/
-│── sql/
-│── dashboard/
+vendor-performance-analysis/
+│── vendor_analysis.ipynb
+│── vendor_queries.sql
+│── vendor_dashboard.pbix
+│── dashboard 1.png
+│── dashboard 2.png
 │── README.md
 ```
 
@@ -177,19 +195,19 @@ Vendor-Performance-Analysis/
 * Analyzed 10K+ records to uncover vendor performance trends
 * Identified $2.7M+ capital locked in inventory
 * Performed Pareto analysis showing 65% vendor dependency
-* Applied statistical testing for business decision validation
+* Applied statistical testing for business validation
 * Delivered actionable insights for pricing and inventory optimization
 
 ---
 
 ## 🚀 Future Improvements
 
-* Build predictive model for demand forecasting
+* Build demand forecasting model
 * Automate vendor performance scoring
-* Integrate real-time dashboard
+* Integrate real-time dashboards
 
 ---
 
 ## 🤝 Connect
 
-If you found this useful or want to collaborate, feel free to connect!
+If you found this project useful or want to collaborate, feel free to connect!
