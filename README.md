@@ -2,6 +2,15 @@
 
 ---
 
+
+## 🚀 Key Highlights
+
+- Analyzed **10,000+ records** to uncover vendor performance trends  
+- Identified **$2.7M+ capital locked in inventory**  
+- Found **65% dependency on top 10 vendors (Pareto analysis)**  
+- Discovered **high-margin low-sales products for growth opportunities**  
+- Revealed **~72% cost reduction through bulk purchasing**
+
 ## 📌 Overview
 
 This project analyzes vendor-level sales, purchasing behavior, and inventory efficiency to generate actionable business insights.
